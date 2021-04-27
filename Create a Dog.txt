@@ -1,0 +1,33 @@
+Create A Dog
+Open a new file.
+Begin by saving your file. Make sure you save the file as DogBy(yourName).java. For example, my file would be called	DogByNeha.java.
+First type public class Dog.
+Add braces.
+Declare instance variables. You must include the following: private String name, private int age, and… Feel free to add more. Think about the properties of a dog (fur color, etc.) Here is an example:
+
+public class Dog
+{
+	private String name;
+	private int age;
+	public DogByNeha();
+	{
+		name = "Lola";
+		age = 100;
+	}
+}
+
+Add methods: bark, growOlder.
+
+public void bark();
+{
+	System.out.println("woof");
+	or
+	System.out.println("bark");
+}
+public void growOlder();
+{
+	age++; (Use two plus signs instead of one. Ex: age++)
+	System.out.println("Happy Birthday!! I am now " + age + "!"); (celebrate!, so 'Happy Birthday!!' when called)
+}
+
+BONUS: Make a function that will check if it's a major birthday(10, 20, 30) Don't be afraid to ask for help because it's very advanced, or try to solve this on your own!
